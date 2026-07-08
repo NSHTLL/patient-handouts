@@ -28,6 +28,29 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Equipment and setup tips",
+        bullets: [
+          "An ergonomic keyboard, wrist rest, or vertical mouse can reduce wrist strain if you work at a computer",
+          "For hand tools, larger or padded handles reduce the grip force needed",
+          "A wrist splint isn't just for night, it can help during aggravating daytime tasks too"
+        ]
+      },
+      {
+        heading: "Managing symptoms with heat and cold",
+        bullets: [
+          "Cold can help settle acute tingling or a flare after a heavy day",
+          "Warmth before activity can ease general stiffness, avoid direct heat if symptoms are acutely irritated"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Avoid sustained gripping or wrist bending for long periods, break tasks up",
+          "Alternate hands for repetitive tasks where possible",
+          "Reduce vibration exposure from power tools where you can, or use anti vibration gloves"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Increasing weakness in your hand",
@@ -63,6 +86,27 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Equipment and everyday tips",
+        bullets: [
+          "Larger handled tools and utensils reduce the strain of repetitive gripping",
+          "A padded grip on frequently used tools, like secateurs or kitchen utensils, can help"
+        ]
+      },
+      {
+        heading: "Managing symptoms with heat and cold",
+        bullets: [
+          "Warmth before activity can ease stiffness and help the finger move more freely",
+          "Cold can help settle swelling after a flare"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Avoid repetitive full grip tasks where possible while it settles",
+          "Take regular breaks from tools or activities that involve sustained gripping"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Your finger locks in a bent position and won't straighten",
@@ -93,6 +137,27 @@ const STARTER_TEMPLATES = [
           "Wear a thumb spica splint to rest the tendons",
           "Modify or take breaks from repetitive thumb and wrist movement",
           "Avoid lifting with the wrist bent and thumb out"
+        ]
+      },
+      {
+        heading: "Equipment and everyday tips",
+        bullets: [
+          "Larger handled tools reduce strain on the thumb tendons",
+          "Avoid lifting a baby or heavy items with your wrist bent and thumb out, lift with a flat wrist and supported forearm instead"
+        ]
+      },
+      {
+        heading: "Managing symptoms with heat and cold",
+        bullets: [
+          "Cold can help settle pain and swelling after aggravating activity",
+          "Warmth before gentle movement can ease stiffness once the acute stage has settled"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Avoid repetitive thumb and wrist movements like wringing or twisting where possible",
+          "Share load between both hands rather than repeatedly using the affected thumb"
         ]
       },
       {
@@ -423,6 +488,31 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Joint protection and equipment",
+        bullets: [
+          "Built up or larger handled utensils, pens, and tools reduce pinch force",
+          "A jar opener or electric can opener avoids high load pinching",
+          "Key turners and lever style tap handles protect the thumb base from twisting load",
+          "A thumb splint during flare ups or heavy tasks gives the joint extra support"
+        ]
+      },
+      {
+        heading: "Managing flares with heat and cold",
+        bullets: [
+          "Warmth before activity, a warm pack or running your hands under warm water, can ease stiffness",
+          "Cold, an ice pack wrapped in a cloth for 10 to 15 minutes, can settle a flare that's hot or swollen",
+          "Alternating both is fine, use whichever feels more soothing"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Spread heavy tasks across your whole hand rather than pinching with your thumb where you can",
+          "Slide or push objects instead of pinching and lifting where possible",
+          "Break repetitive tasks into shorter bursts with breaks between"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Pain is persistent",
@@ -488,6 +578,30 @@ const STARTER_TEMPLATES = [
           "Warm your hands before activity",
           "Pace repetitive tasks",
           "Use larger handled tools"
+        ]
+      },
+      {
+        heading: "Joint protection and equipment",
+        bullets: [
+          "Larger handled tools, utensils, and pens reduce the grip force needed",
+          "Jar openers, electric tin openers, and lever tap handles protect small joints from twisting load",
+          "A rocker knife or two handled mug can help on days joints are stiff or sore"
+        ]
+      },
+      {
+        heading: "Managing flares with heat and cold",
+        bullets: [
+          "A warm hand bath or warm pack before activity can ease morning stiffness",
+          "Cold packs can help settle a joint that's hot, swollen, or newly flared",
+          "Short, regular use works better than prolonged heat or cold in one go"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Use your palm or whole hand to carry loads rather than gripping with fingertips",
+          "Slide heavy items rather than lifting where you can",
+          "Pace repetitive tasks like chopping, kneading, or wringing, with breaks between"
         ]
       },
       {
@@ -1204,5 +1318,313 @@ const STARTER_TEMPLATES = [
       }
     ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon."
+  },
+  {
+    id: "rheumatoid-arthritis",
+    eyebrow: "PATIENT INFORMATION",
+    title: "Rheumatoid Arthritis of the Hand",
+    intro:
+      "Living with joint pain, swelling, or stiffness from rheumatoid arthritis? Looking after your hands day to day can make a real difference alongside your medical treatment.",
+    sections: [
+      {
+        heading: "What's happening",
+        bullets: [
+          "Rheumatoid arthritis is a condition where the immune system causes inflammation in the joint lining",
+          "This can lead to pain, swelling, stiffness, and over time, changes in joint shape",
+          "The hands and wrists are commonly affected"
+        ]
+      },
+      {
+        heading: "What can help",
+        bullets: [
+          "Pace activities and build in rest breaks, especially during a flare",
+          "Use joint protection techniques, like larger handled tools and avoiding tight gripping",
+          "Splints can support painful joints during flares or demanding tasks",
+          "Gentle regular movement helps keep joints mobile between flares"
+        ]
+      },
+      {
+        heading: "Joint protection and equipment",
+        bullets: [
+          "Larger handled tools and utensils reduce joint stress during flares and beyond",
+          "Jar openers, electric openers, and lever tap handles reduce twisting load on small joints",
+          "Resting or working splints can support painful joints, we'll advise which suits you and when",
+          "An occupational therapy home assessment can identify further useful equipment"
+        ]
+      },
+      {
+        heading: "Managing flares with heat and cold",
+        bullets: [
+          "Warmth, a warm shower, bath, or heat pack, can ease morning stiffness",
+          "Cold packs can help settle a joint that's hot, swollen, or acutely flared",
+          "Avoid heat directly over a very hot, actively inflamed joint, cold is usually more comfortable there"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Distribute load across your whole hand and both hands rather than one gripping finger or thumb",
+          "Slide or push heavy items rather than lifting and carrying where possible",
+          "Plan demanding tasks for times of day your joints feel best, and pace the rest"
+        ]
+      },
+      {
+        heading: "When to get in touch",
+        bullets: [
+          "A new or worsening flare that isn't settling",
+          "Increasing difficulty with daily tasks",
+          "You'd like a splint or joint protection review"
+        ]
+      }
+    ],
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or rheumatologist."
+  },
+  {
+    id: "nerve-injury-recovery",
+    eyebrow: "PATIENT INFORMATION",
+    title: "Nerve Injury and Recovery",
+    intro:
+      "Had an injury or surgery involving a nerve in your hand or arm? Nerve healing is a slow, steady process, and it helps to know what to expect along the way.",
+    sections: [
+      {
+        heading: "What's happening",
+        bullets: [
+          "Nerves carry sensation and movement signals, and can be injured through cuts, crush injuries, or surgery",
+          "Nerves regenerate slowly, often just a few millimetres a week",
+          "You may notice changing sensations, tingling, or patches of numbness as it heals"
+        ]
+      },
+      {
+        heading: "What can help",
+        bullets: [
+          "Protect the area from injury while sensation is reduced, especially from heat and sharp objects",
+          "Follow any splinting or positioning advice to protect the healing nerve",
+          "Desensitisation or sensory re-education exercises can help as feeling returns, we'll guide you on timing"
+        ]
+      },
+      {
+        heading: "When to get in touch",
+        bullets: [
+          "Sensation or movement getting worse rather than better",
+          "A wound over the nerve repair site looking unwell",
+          "Any concerns about your recovery not matching what you expected"
+        ]
+      }
+    ],
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon."
+  },
+  {
+    id: "hand-burns-care",
+    eyebrow: "PATIENT INFORMATION",
+    title: "Caring for a Hand Burn",
+    intro:
+      "Burns to the hand need careful care to protect movement and skin as they heal. Here's a general guide alongside your specific wound care plan.",
+    sections: [
+      {
+        heading: "What's happening",
+        bullets: [
+          "Burns damage the skin and sometimes deeper tissue, and healing time depends on how deep the burn is",
+          "Hands are prone to stiffness and tightness while burns heal, given how much your skin needs to stretch to move your fingers"
+        ]
+      },
+      {
+        heading: "What can help",
+        bullets: [
+          "Follow your dressing and wound care instructions closely",
+          "Keep moving your fingers and hand gently within the range advised, to help prevent stiffness",
+          "Once healed, moisturise regularly and protect the area from direct sun",
+          "Wear any pressure garment or splint as prescribed to support scar healing"
+        ]
+      },
+      {
+        heading: "When to get in touch",
+        bullets: [
+          "Signs of infection, increasing redness, swelling, warmth, or discharge",
+          "Increasing tightness or reduced movement",
+          "Any concerns about how the wound or scar is healing"
+        ]
+      }
+    ],
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or burns team."
+  },
+  {
+    id: "return-to-work",
+    eyebrow: "PATIENT INFORMATION",
+    title: "Returning to Work After a Hand Injury",
+    intro:
+      "Getting back to work after a hand injury often works best as a gradual, planned process. Here's a fuller picture of how we support that, from workplace set up through to your referral pathway.",
+    sections: [
+      {
+        heading: "Workplace assessment",
+        bullets: [
+          "We can visit your workplace, or talk through it with you in detail, to understand the specific demands of your role",
+          "This includes tasks like lifting, gripping, typing, using tools, or driving",
+          "A proper assessment lets us recommend changes that suit your actual job, not generic advice",
+          "We'll also look at how often and how heavily each task loads the injured area"
+        ]
+      },
+      {
+        heading: "Adapting your job",
+        bullets: [
+          "Modified duties, lighter tasks, reduced hours, or a change in task order can all ease the load while you recover",
+          "Rotating between tasks helps avoid repetitive strain on the healing area",
+          "Building in regular short breaks matters more than one long break at the end of the day",
+          "We'll work through specific sticking points in your role with you, not just general principles"
+        ]
+      },
+      {
+        heading: "Setting up your workstation",
+        bullets: [
+          "Keep your wrist in a neutral position, not bent up or resting heavily on a hard edge",
+          "Elbows at around a right angle, shoulders relaxed rather than hunched",
+          "Chair height and screen position matter too, poor posture upstream adds strain downstream",
+          "A document holder, footrest, or monitor riser can help if your current setup is forcing awkward positions",
+          "For standing or manual roles, bench height and how far you reach to work also affect load on your hand and wrist"
+        ]
+      },
+      {
+        heading: "Adaptive equipment that can help",
+        bullets: [
+          "Built up or larger handled tools and utensils reduce the grip force needed",
+          "Voice to text software or dictation tools can reduce typing load",
+          "Key turners, jar openers, and lever style tap handles help with pinch heavy tasks",
+          "Ergonomic mice, split keyboards, or a vertical mouse can suit some wrist and elbow conditions",
+          "For trade or manual roles, padded gloves, tool grips, or anti vibration equipment can reduce strain",
+          "We'll help identify what will genuinely help for your specific role, rather than a generic list of gadgets"
+        ]
+      },
+      {
+        heading: "How the referral process works",
+        bullets: [
+          "If your injury is work related, your claim is usually managed through ACC, and we'll liaise with your case manager as part of your care",
+          "Your GP or specialist may also be involved, and we can send updates to help keep everyone aligned",
+          "We can write reports for your employer outlining temporary restrictions or recommended modified duties",
+          "If a formal workplace assessment or vocational support is needed, we can refer you on to the right person",
+          "You're welcome to loop in your manager or HR contact at any point in this process"
+        ]
+      },
+      {
+        heading: "Planning a graded return",
+        bullets: [
+          "Return to work plans usually start with reduced hours or modified duties, then build up in stages",
+          "We'll set review points to check how you're coping and adjust the plan as needed",
+          "A return that moves faster than your hand is ready for can set your recovery back, pacing genuinely matters",
+          "We'll work with you and your employer to agree realistic timeframes"
+        ]
+      },
+      {
+        heading: "When to get in touch",
+        bullets: [
+          "Pain or swelling that flares up with work tasks",
+          "You feel your duties are progressing faster than your hand is ready for",
+          "You need updated paperwork for your employer or ACC",
+          "Anything about your return to work plan isn't feeling realistic"
+        ]
+      }
+    ],
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or ACC case manager."
+  },
+  {
+    id: "return-to-sport",
+    eyebrow: "PATIENT INFORMATION",
+    title: "Returning to Sport After a Hand Injury",
+    intro:
+      "Keen to get back to your sport? A staged return helps you get back doing what you love while protecting your recovery.",
+    sections: [
+      {
+        heading: "Planning your return",
+        bullets: [
+          "We'll talk through the specific demands of your sport, gripping, catching, contact, weight bearing",
+          "Taping, strapping, or a protective splint can support you as you build back up",
+          "A graded return to training before competition gives your hand time to adjust"
+        ]
+      },
+      {
+        heading: "What can help",
+        bullets: [
+          "Build grip and load tolerance gradually with your therapy programme",
+          "Warm up thoroughly before training or play",
+          "Listen to your hand, some muscle fatigue is normal, sharp or sudden pain is not"
+        ]
+      },
+      {
+        heading: "When to get in touch",
+        bullets: [
+          "Pain, swelling, or instability during or after activity",
+          "You're unsure whether you're ready for full contact or competition",
+          "You'd like a specific return to sport plan"
+        ]
+      }
+    ],
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+  },
+  {
+    id: "compression-garment-care",
+    eyebrow: "HOME CARE PROGRAMME",
+    title: "Caring for Your Compression Garment",
+    intro:
+      "Your compression garment supports healing and helps manage swelling or scarring. A little care keeps it working well.",
+    sections: [
+      {
+        heading: "Wearing it",
+        bullets: [
+          "Wear your garment for the hours advised each day",
+          "It should feel firm and supportive, not painful or restrictive",
+          "Put it on first thing, before swelling builds up through the day, if advised"
+        ]
+      },
+      {
+        heading: "Washing and care",
+        bullets: [
+          "Hand wash in cool water with a mild soap",
+          "Avoid wringing, tumble drying, or direct heat",
+          "Lay flat to dry"
+        ]
+      },
+      {
+        heading: "When to get in touch",
+        bullets: [
+          "The garment feels too tight, too loose, or is losing its stretch",
+          "Numbness, tingling, or colour change while wearing it",
+          "Skin irritation under the garment"
+        ]
+      }
+    ],
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+  },
+  {
+    id: "managing-persistent-pain",
+    eyebrow: "PATIENT INFORMATION",
+    title: "Managing Persistent Hand or Arm Pain",
+    intro:
+      "When pain sticks around longer than expected, it can be confusing and frustrating. Understanding a bit more about persistent pain can help you feel more in control.",
+    sections: [
+      {
+        heading: "What's happening",
+        bullets: [
+          "Persistent pain, pain lasting longer than the usual healing time, doesn't always mean ongoing tissue damage",
+          "Your nervous system can become more sensitive over time, amplifying pain signals",
+          "This is a real, common experience, not a sign you're imagining it or doing something wrong"
+        ]
+      },
+      {
+        heading: "What can help",
+        bullets: [
+          "Gradually building activity back up, rather than avoiding movement altogether",
+          "Pacing tasks, breaking them into smaller chunks with rest between",
+          "Stress, sleep, and mood all genuinely influence pain, so looking after these matters too",
+          "Working with your therapist on a plan tailored to your goals"
+        ]
+      },
+      {
+        heading: "When to get in touch",
+        bullets: [
+          "Pain that's significantly limiting your daily life or mood",
+          "New symptoms alongside the pain that concern you",
+          "You'd like to talk through a longer term management plan"
+        ]
+      }
+    ],
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
   }
 ];
