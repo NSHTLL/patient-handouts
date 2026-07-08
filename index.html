@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Patient Handouts — North Shore Hand Therapy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <img src="assets/logo.png" alt="North Shore Hand Therapy" class="sidebar-logo" />
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Patient details</div>
+      <label class="field">
+        <span>Patient name</span>
+        <input type="text" id="patientName" placeholder="e.g. Jane Smith" />
+      </label>
+      <label class="field">
+        <span>Date</span>
+        <input type="date" id="patientDate" />
+      </label>
+      <label class="field">
+        <span>Prepared by</span>
+        <input type="text" id="therapistName" placeholder="e.g. Laura Lyons" />
+      </label>
+    </div>
+
+    <div class="sidebar-section sidebar-templates">
+      <div class="sidebar-label">Handouts</div>
+      <div id="templateList" class="template-list"></div>
+      <button id="newTemplateBtn" class="btn btn-ghost btn-small">+ New blank handout</button>
+    </div>
+
+    <div class="sidebar-section sidebar-actions">
+      <button id="resetBtn" class="btn btn-ghost btn-small">Reset this handout to original</button>
+      <button id="deleteBtn" class="btn btn-ghost btn-small btn-danger">Delete this handout</button>
+    </div>
+  </aside>
+
+  <main class="editor">
+    <div class="toolbar">
+      <div class="toolbar-hint">Click any text in the handout to edit it. Changes save automatically.</div>
+      <button id="printBtn" class="btn btn-primary">Print / Save as PDF</button>
+    </div>
+
+    <div class="page-wrap">
+      <div class="page" id="page">
+        <header class="page-header">
+          <img src="assets/logo.png" alt="North Shore Hand Therapy" class="page-logo" />
+          <div class="page-meta">
+            <div class="meta-line" id="metaPatient"></div>
+            <div class="meta-line" id="metaDate"></div>
+          </div>
+        </header>
+
+        <div class="page-body">
+          <div class="eyebrow" id="eyebrow" contenteditable="true"></div>
+          <h1 class="title" id="title" contenteditable="true"></h1>
+          <p class="intro" id="intro" contenteditable="true"></p>
+
+          <div class="handout-image-wrap">
+            <img id="handoutImage" class="handout-image" style="display:none" />
+            <div class="image-controls no-print">
+              <label class="btn btn-ghost btn-small" id="addImageLabel">
+                + Add image
+                <input type="file" id="imageInput" accept="image/*" style="display:none" />
+              </label>
+              <button class="btn btn-ghost btn-small btn-danger" id="removeImageBtn" style="display:none">Remove image</button>
+            </div>
+          </div>
+
+          <div id="sections"></div>
+          <div id="exercisesWrap" class="exercises-wrap" style="display:none">
+            <div class="exercise-list" id="exerciseList"></div>
+          </div>
+        </div>
+
+        <footer class="page-footer">
+          <div class="footer-note" id="footerNote" contenteditable="true"></div>
+          <div class="footer-brand">North Shore Hand Therapy · northshorehands.co.nz</div>
+        </footer>
+      </div>
+    </div>
+  </main>
+
+</div>
+
+<script src="templates.js"></script>
+<script src="icons.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
