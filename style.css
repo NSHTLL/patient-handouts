@@ -339,6 +339,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.05em;
   color: var(--taupe);
+  line-height: 1.6;
 }
 
 [contenteditable="true"] {

@@ -320,6 +320,14 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Everyday tips",
+        bullets: [
+          "Larger handled tools and utensils can help if grip is affected by a tightening cord",
+          "Warmth before activity can ease general hand stiffness, though it won't change the cord itself",
+          "There's no proven way to slow the cord's progression through exercise or equipment, our role is monitoring it and referring you on at the right time if it progresses"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "A finger becoming harder to straighten",
@@ -350,6 +358,27 @@ const STARTER_TEMPLATES = [
           "Avoid resting or leaning on your elbow",
           "Avoid keeping your elbow fully bent for long periods, such as while sleeping or on the phone",
           "A soft elbow support or padding at night can help some people"
+        ]
+      },
+      {
+        heading: "Equipment and everyday tips",
+        bullets: [
+          "A soft elbow pad or cushion reduces pressure on the nerve when resting your arm",
+          "An ergonomic phone or headset setup avoids prolonged elbow bending"
+        ]
+      },
+      {
+        heading: "Managing symptoms with heat and cold",
+        bullets: [
+          "Cold can settle irritation after aggravating activity",
+          "Warmth can ease general stiffness around the elbow"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Avoid resting on your elbow on hard surfaces",
+          "Take breaks from prolonged elbow bending, like phone calls or reading"
         ]
       },
       {
@@ -387,6 +416,28 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Equipment and everyday tips",
+        bullets: [
+          "A counterforce brace just below the elbow reduces load on the tendon during activity",
+          "Larger handled tools and utensils reduce grip force needed",
+          "An ergonomic mouse and keyboard setup helps if computer use is a factor"
+        ]
+      },
+      {
+        heading: "Managing symptoms with heat and cold",
+        bullets: [
+          "Cold after activity can help settle pain and inflammation",
+          "Warmth before activity or exercises can ease stiffness"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Reduce heavy gripping and lifting with the palm facing down, this loads the tendon most",
+          "Build activity back up gradually rather than returning to full load at once"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Pain is limiting everyday tasks like carrying a mug or shaking hands",
@@ -417,6 +468,27 @@ const STARTER_TEMPLATES = [
           "Ease off heavy gripping and wrist bending activities for a while",
           "Follow a gradual, therapist guided loading programme",
           "This gives the tendons the best chance to recover strength and settle"
+        ]
+      },
+      {
+        heading: "Equipment and everyday tips",
+        bullets: [
+          "A counterforce brace just below the elbow can reduce tendon load",
+          "Larger handled tools reduce the grip force needed"
+        ]
+      },
+      {
+        heading: "Managing symptoms with heat and cold",
+        bullets: [
+          "Cold after activity helps settle pain and inflammation",
+          "Warmth before activity or exercises eases stiffness"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Reduce repetitive wrist flexion and heavy gripping where possible",
+          "Build activity back up gradually with a therapist guided plan"
         ]
       },
       {
@@ -546,6 +618,27 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Equipment and everyday tips",
+        bullets: [
+          "A wrist splint supports the joint during aggravating tasks",
+          "Avoid tasks that load the wrist in a twisted or weight bearing position where possible"
+        ]
+      },
+      {
+        heading: "Managing symptoms with heat and cold",
+        bullets: [
+          "Cold can settle pain and swelling after aggravating activity",
+          "Warmth can ease general stiffness once the acute stage has passed"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Avoid pushing up from a chair or twisting through the wrist",
+          "Share load with your other hand for lifting and twisting tasks"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Clicking with pain",
@@ -637,6 +730,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Managing symptoms with heat and cold",
+        bullets: [
+          "Cold in the first couple of days helps settle pain and swelling",
+          "Warmth once acute swelling has passed can ease stiffness and support movement"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Avoid weight bearing through the wrist, like pushing up from a chair, until it's more settled",
+          "Build load back up gradually rather than returning straight to heavy tasks"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Pain or swelling isn't easing after a few days",
@@ -668,6 +775,20 @@ const STARTER_TEMPLATES = [
           "Wear a thumb splint to protect the ligament while it heals",
           "Keeps the joint stable during daily tasks",
           "Avoid forceful pinching or gripping, such as opening jars, until reassessed"
+        ]
+      },
+      {
+        heading: "Managing symptoms with heat and cold",
+        bullets: [
+          "Cold helps settle pain and swelling in the early stages",
+          "Warmth can ease stiffness once you're cleared to start gentle movement"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Avoid forceful pinching or gripping until your thumb is reassessed",
+          "Build pinch strength back up gradually once cleared"
         ]
       },
       {
@@ -705,6 +826,29 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Equipment and everyday tips",
+        bullets: [
+          "A wrist support can give extra confidence during early return to daily tasks",
+          "Larger handled tools and utensils reduce load while your grip strength rebuilds",
+          "Non slip jar openers and lever tap handles help if twisting is still uncomfortable"
+        ]
+      },
+      {
+        heading: "Managing stiffness with heat and cold",
+        bullets: [
+          "Warmth before your exercises can ease stiffness and help movement feel easier",
+          "Cold after activity can help if you notice swelling or aching later in the day"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Build weight bearing and lifting back up gradually, don't jump straight to full load",
+          "Avoid heavy gripping or catching a fall on that hand until your therapist confirms you're ready",
+          "Two handed lifting is a good stepping stone before returning to one handed heavy tasks"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Increasing pain",
@@ -736,6 +880,15 @@ const STARTER_TEMPLATES = [
           "Wear your cast or splint exactly as prescribed, for as long as advised",
           "Avoid removing it early, even if pain has settled",
           "Gently move your fingers, elbow, and shoulder to help prevent stiffness elsewhere"
+        ]
+      },
+      {
+        heading: "Adaptive equipment while you're in a cast",
+        bullets: [
+          "One handed tools, like a rocker knife, jar opener, or electric can opener, help while your other hand does the work",
+          "A non slip mat stabilises bowls, jars, or paper for one handed tasks",
+          "Slip on shoes or elastic laces avoid needing two hands to fasten them",
+          "A cast cover or waterproof sleeve keeps it dry and clean in the shower"
         ]
       },
       {
@@ -773,6 +926,21 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Adaptive equipment while you're healing",
+        bullets: [
+          "One handed tools, like a rocker knife or jar opener, help while your splint restricts that hand",
+          "A non slip mat stabilises items for one handed tasks in the kitchen",
+          "Slip on shoes or elastic laces avoid needing two hands to fasten them"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Avoid gripping or knocking the hand once your splint is off, until your therapist confirms you're ready",
+          "Build hand strength back up gradually with guided exercises rather than jumping straight into heavy tasks"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Increasing pain, swelling, or new numbness",
@@ -803,6 +971,20 @@ const STARTER_TEMPLATES = [
           "Wear any splint or buddy tape exactly as advised",
           "Elevate your hand to reduce swelling",
           "Keep your other fingers moving to avoid stiffness"
+        ]
+      },
+      {
+        heading: "Adaptive equipment while you're healing",
+        bullets: [
+          "Larger handled utensils and tools reduce strain while the finger is splinted or buddy taped",
+          "A rocker knife helps with cutting food one handed if needed"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Avoid catching or knocking the finger, and avoid heavy gripping until cleared",
+          "Once your splint is off, build grip strength back up gradually rather than returning straight to full tasks"
         ]
       },
       {
@@ -837,6 +1019,21 @@ const STARTER_TEMPLATES = [
           "Follow your surgeon's guidance on your sling or splint",
           "Gentle, early movement within a pain free range is often encouraged, ask us what's right for you",
           "Manage swelling with elevation when resting"
+        ]
+      },
+      {
+        heading: "Adaptive equipment and everyday tips",
+        bullets: [
+          "A sling frees up your other hand while your elbow is protected",
+          "Slip on shoes and elastic laces help if reaching or bending is limited",
+          "Loose, easy fastening clothing is easier to manage one handed"
+        ]
+      },
+      {
+        heading: "Managing stiffness with heat and cold",
+        bullets: [
+          "Warmth before your exercises can ease stiffness and make movement feel easier",
+          "Cold after activity can help settle any swelling or aching"
         ]
       },
       {
@@ -939,6 +1136,14 @@ const STARTER_TEMPLATES = [
           "Layer your clothing",
           "Wear warm gloves and use hand warmers in colder months",
           "Avoid smoking and reduce caffeine"
+        ]
+      },
+      {
+        heading: "Equipment that can help",
+        bullets: [
+          "Battery heated gloves or hand warmers are useful for outdoor work or cold environments",
+          "Moisture wicking glove liners help keep hands dry as well as warm, dampness makes symptoms worse",
+          "Insulated or padded tool handles reduce cold transfer during outdoor or manual tasks"
         ]
       },
       {
