@@ -51,6 +51,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "Imaging isn't usually needed, carpal tunnel is often diagnosed from your symptoms and a physical assessment",
+          "A nerve conduction study may be requested if the diagnosis is unclear or symptoms are severe"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Most people improve with splinting and activity changes alone",
+          "If symptoms persist or worsen, we may suggest referral to your GP or a hand surgeon to discuss further options"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Increasing weakness in your hand",
@@ -59,7 +73,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Splinting for carpal tunnel syndrome",
+        authors: "Karjalainen et al.",
+        year: "2023",
+        note: "Found limited evidence that a night splint helps more than no treatment in the short term.",
+        url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010003.pub2/full"
+      }
+    ]
   },
   {
     id: "trigger-finger",
@@ -107,6 +130,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "Imaging usually isn't needed, trigger finger is diagnosed from your symptoms and how the finger moves",
+          "An ultrasound is occasionally used if the diagnosis is unclear"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Many cases settle with splinting, activity changes, and time",
+          "If it isn't improving, we may suggest referral to your GP or a hand surgeon to discuss options such as a steroid injection or a small procedure to release the pulley"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Your finger locks in a bent position and won't straighten",
@@ -114,7 +151,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Corticosteroid injection for trigger finger in adults",
+        authors: "Peters-Veluthamaningal et al.",
+        year: "2009",
+        note: "Based on limited data, found a steroid injection may work better than local anaesthetic alone by 4 weeks.",
+        url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005617.pub2/full"
+      }
+    ]
   },
   {
     id: "de-quervains",
@@ -161,6 +207,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "Imaging usually isn't needed, De Quervain's is diagnosed from your symptoms and a simple examination",
+          "An ultrasound is occasionally used if the diagnosis is unclear"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Most cases improve with splinting and activity changes",
+          "If pain persists despite treatment, we may suggest referral to your GP or a hand surgeon to discuss further options such as a steroid injection"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Pain isn't easing with rest and splinting",
@@ -168,7 +228,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Corticosteroid injection for de Quervain's tenosynovitis",
+        authors: "Peters-Veluthamaningal et al.",
+        year: "2009",
+        note: "Based on a single small trial in pregnant or breastfeeding women, found injection may work better than splinting alone. Not yet confirmed in the wider population.",
+        url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005616.pub2/full"
+      }
+    ]
   },
   {
     id: "splint-care",
@@ -286,6 +355,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "An X-ray is often taken to check for a small fracture at the joint alongside the tendon injury",
+          "This helps confirm the best splinting approach for your finger"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Most mallet fingers heal well with consistent splinting alone",
+          "If there's a larger fracture, the joint is out of place, or splinting hasn't worked, we may refer you to a hand surgeon to discuss further options"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Your splint comes off or gets wet",
@@ -294,7 +377,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Interventions for treating mallet finger injuries",
+        authors: "Handoll and Vaghela",
+        year: "2004",
+        note: "Based on only 4 small, methodologically weak trials, found not enough evidence to identify the single best splinting method.",
+        url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004574.pub2/abstract"
+      }
+    ]
   },
   {
     id: "dupuytrens",
@@ -328,6 +420,19 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "Imaging isn't usually needed, Dupuytren's is diagnosed by how your hand looks and feels"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "If a finger becomes hard to straighten and it's affecting your daily tasks, we can refer you to a hand surgeon to discuss treatment options",
+          "Options a surgeon may discuss include a needle procedure, an injection, or surgery, depending on how the contracture is affecting you"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "A finger becoming harder to straighten",
@@ -335,7 +440,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Surgery for Dupuytren's contracture of the fingers",
+        authors: "Rodrigues et al.",
+        year: "2015",
+        note: "Found insufficient evidence to determine which surgical procedure works best, and questioned the value of routine splinting after surgery.",
+        url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010143.pub2/full"
+      }
+    ]
   },
   {
     id: "cubital-tunnel",
@@ -382,6 +496,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "Imaging isn't usually needed, cubital tunnel is often diagnosed from your symptoms and a physical assessment",
+          "A nerve conduction study may be requested if the diagnosis is unclear or symptoms are severe"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Many cases improve with activity changes and night positioning alone",
+          "If you have increasing weakness or symptoms aren't improving, we may suggest referral to your GP or a hand surgeon"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Increasing weakness in your hand",
@@ -390,7 +518,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Treatment for ulnar neuropathy at the elbow",
+        authors: "Caliandro et al.",
+        year: "2025",
+        note: "For mild to moderate cases, found written self-management guidance alone worked about as well as adding splints or exercises.",
+        url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006839.pub5/full"
+      }
+    ]
   },
   {
     id: "tennis-elbow",
@@ -438,6 +575,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "Imaging usually isn't needed, tennis elbow is diagnosed from your symptoms and a physical assessment",
+          "An ultrasound or MRI is occasionally used if the diagnosis is unclear or symptoms are unusually persistent"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Most cases improve well with a loading exercise programme over a few months",
+          "If pain persists despite a proper trial of therapy, we may suggest referral to your GP or a specialist to discuss further options such as an injection"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Pain is limiting everyday tasks like carrying a mug or shaking hands",
@@ -445,7 +596,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Manual therapy and exercise for lateral elbow pain",
+        authors: "Wallis et al.",
+        year: "2024",
+        note: "Found manual therapy and exercise may slightly reduce pain and disability in the short term, though benefits were modest and not clearly sustained long term.",
+        url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013042.pub2/full"
+      }
+    ]
   },
   {
     id: "golfers-elbow",
@@ -492,6 +652,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "Imaging usually isn't needed, golfer's elbow is diagnosed from your symptoms and a physical assessment",
+          "An ultrasound or MRI is occasionally used if the diagnosis is unclear or symptoms are unusually persistent"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Most cases improve well with a loading exercise programme over a few months",
+          "If pain persists despite a proper trial of therapy, we may suggest referral to your GP or a specialist to discuss further options such as an injection"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Tingling into your ring and little fingers alongside the elbow pain",
@@ -522,6 +696,19 @@ const STARTER_TEMPLATES = [
           "Many ganglions settle on their own without treatment",
           "Rest or splinting the area if it's uncomfortable or limiting movement",
           "Drainage or surgical options can be discussed if needed"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "Imaging isn't usually needed, a ganglion is often diagnosed by how it looks and feels",
+          "An ultrasound can confirm the diagnosis if there's any uncertainty"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "If it's persistently uncomfortable or you'd like it removed, we can refer you to a hand surgeon to discuss drainage or excision"
         ]
       },
       {
@@ -585,6 +772,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "An X-ray may be used to confirm the diagnosis and see how advanced the joint changes are",
+          "This isn't always needed if symptoms and examination findings are clear"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Splinting, joint protection, and activity changes help many people manage well long term",
+          "If these aren't enough, we can refer you back to your GP to discuss further options, including an injection or a surgical opinion"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Pain is persistent",
@@ -636,6 +837,20 @@ const STARTER_TEMPLATES = [
         bullets: [
           "Avoid pushing up from a chair or twisting through the wrist",
           "Share load with your other hand for lifting and twisting tasks"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "An X-ray may be taken to rule out a fracture",
+          "An MRI or wrist arthroscopy is sometimes used if symptoms persist and the diagnosis needs confirming"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Many TFCC injuries settle with splinting and activity changes",
+          "If symptoms persist despite this, we may suggest referral to a hand surgeon for further assessment"
         ]
       },
       {
@@ -698,6 +913,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "An X-ray may be used to confirm the diagnosis and see how advanced the joint changes are",
+          "This isn't always needed if the pattern of symptoms is clear"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Joint protection and activity pacing help many people manage well long term",
+          "If a particular joint remains very painful, we can refer you back to your GP to discuss further options"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "A joint becomes hot or significantly swollen",
@@ -705,7 +934,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Exercise for hand osteoarthritis",
+        authors: "Østerås et al.",
+        year: "2017",
+        note: "Found low quality evidence of small, short term improvements in hand pain, function, and finger stiffness with exercise, not clearly sustained at 6 to 12 months.",
+        url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010388.pub2/full"
+      }
+    ]
   },
   {
     id: "wrist-sprain",
@@ -741,6 +979,20 @@ const STARTER_TEMPLATES = [
         bullets: [
           "Avoid weight bearing through the wrist, like pushing up from a chair, until it's more settled",
           "Build load back up gradually rather than returning straight to heavy tasks"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "An X-ray is often taken to rule out a fracture alongside the sprain",
+          "Further imaging, such as an MRI, is occasionally used if symptoms don't settle as expected"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Most sprains settle well with a gradual return to movement and activity",
+          "If your wrist continues to feel unstable or painful, we may suggest referral to your GP or a hand surgeon for further assessment"
         ]
       },
       {
@@ -789,6 +1041,20 @@ const STARTER_TEMPLATES = [
         bullets: [
           "Avoid forceful pinching or gripping until your thumb is reassessed",
           "Build pinch strength back up gradually once cleared"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "An X-ray is often taken to rule out a fracture alongside the ligament injury",
+          "An ultrasound or MRI may be used if there's concern about a more significant tear"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Many cases are well managed with splinting and therapy alone",
+          "If instability or a significant tear is suspected, we may refer you to a hand surgeon for a specialist opinion, as some tears need surgical repair"
         ]
       },
       {
@@ -849,6 +1115,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "X-rays are used to diagnose your fracture and check it's healing in a good position",
+          "Your surgeon or fracture clinic will let you know if any further images are needed"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Your fracture is managed by your surgeon or the fracture clinic, and we work alongside them on your therapy",
+          "We'll flag any concerns about your healing or progress directly with your surgical team"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Increasing pain",
@@ -857,7 +1137,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Rehabilitation for distal radial fractures in adults",
+        authors: "Handoll et al.",
+        year: "2015",
+        note: "Found insufficient evidence to determine the single best rehabilitation approach, with very low quality evidence that hand therapy helps more than instructions alone shortly after cast removal.",
+        url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003324.pub3/full"
+      }
+    ]
   },
   {
     id: "scaphoid-fracture",
@@ -889,6 +1178,20 @@ const STARTER_TEMPLATES = [
           "A non slip mat stabilises bowls, jars, or paper for one handed tasks",
           "Slip on shoes or elastic laces avoid needing two hands to fasten them",
           "A cast cover or waterproof sleeve keeps it dry and clean in the shower"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "Because scaphoid fractures can be hard to see on an early X-ray, a repeat X-ray, CT, or MRI is sometimes arranged a couple of weeks later if you're still sore",
+          "Your surgeon or fracture clinic will let you know if follow up imaging is needed"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Your fracture is managed by your surgeon or the fracture clinic, and we work alongside them on your therapy",
+          "Because scaphoid fractures can be slow to heal, ongoing surgical follow up is a normal part of your care, not a sign anything has gone wrong"
         ]
       },
       {
@@ -941,6 +1244,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "X-rays are used to diagnose your fracture and check its position",
+          "A follow up X-ray is often taken to confirm it's healing well"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Most metacarpal fractures heal well with splinting alone",
+          "If the bone is significantly out of position or rotated, your surgeon may discuss a procedure to realign it"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Increasing pain, swelling, or new numbness",
@@ -985,6 +1302,20 @@ const STARTER_TEMPLATES = [
         bullets: [
           "Avoid catching or knocking the finger, and avoid heavy gripping until cleared",
           "Once your splint is off, build grip strength back up gradually rather than returning straight to full tasks"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "X-rays are used to diagnose your fracture and check its position",
+          "A follow up X-ray is often taken to confirm it's healing well"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Most finger fractures heal well with splinting or buddy taping alone",
+          "If the bone is significantly out of position or involves a joint, your surgeon may discuss further options"
         ]
       },
       {
@@ -1034,6 +1365,20 @@ const STARTER_TEMPLATES = [
         bullets: [
           "Warmth before your exercises can ease stiffness and make movement feel easier",
           "Cold after activity can help settle any swelling or aching"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "X-rays are used to diagnose your fracture and check how many pieces the bone has broken into",
+          "Your surgeon will let you know if a CT scan is needed to plan treatment"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Many radial head fractures are managed without surgery, with early movement guided by your surgeon and therapist",
+          "More complex fractures may need a surgical opinion, your surgeon will discuss this with you if relevant"
         ]
       },
       {
@@ -1105,6 +1450,19 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "An X-ray is often taken to check for a small fracture at the joint alongside the tendon injury"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Most cases heal well with consistent splinting alone",
+          "If there's a larger fracture, the joint is out of place, or splinting hasn't worked, we may refer you to a hand surgeon to discuss further options"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "Your splint loosens or feels uncomfortable",
@@ -1144,6 +1502,20 @@ const STARTER_TEMPLATES = [
           "Battery heated gloves or hand warmers are useful for outdoor work or cold environments",
           "Moisture wicking glove liners help keep hands dry as well as warm, dampness makes symptoms worse",
           "Insulated or padded tool handles reduce cold transfer during outdoor or manual tasks"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "Imaging isn't usually needed for typical Raynaud's",
+          "Your GP may arrange blood tests if they suspect an underlying condition is contributing"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Most people manage well with warmth and lifestyle changes alone",
+          "If episodes are severe, frequent, or you notice skin changes, we may suggest referral to your GP or a specialist for further assessment"
         ]
       },
       {
@@ -1279,7 +1651,16 @@ const STARTER_TEMPLATES = [
       { name: "Thumb out", instruction: "Turn your palm up and gently stretch your thumb out to the side.", icon: "thumb-out" },
       { name: "Gentle stretch", instruction: "With your other hand, very gently stretch your thumb back a little further, only if comfortable.", icon: "thumb-out" }
     ],
-    footerNote: "Stop and let your therapist know if any movement causes tingling or sharp pain, not just gentle stretching."
+    footerNote: "Stop and let your therapist know if any movement causes tingling or sharp pain, not just gentle stretching.",
+    sources: [
+      {
+        title: "Exercise and mobilisation interventions for carpal tunnel syndrome",
+        authors: "Page et al.",
+        year: "2012",
+        note: "Found limited, very low quality evidence that nerve and tendon gliding exercises may help carpal tunnel symptoms and hand function. More research is needed.",
+        url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009899/full"
+      }
+    ]
   },
   {
     id: "wrist-rom",
@@ -1574,6 +1955,20 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "Imaging",
+        bullets: [
+          "Blood tests and imaging, such as X-rays or ultrasound, are usually arranged by your GP or rheumatologist to confirm the diagnosis and monitor disease activity",
+          "We don't order these ourselves, but will flag any changes we notice in your hands to your medical team"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Rheumatoid arthritis is managed by your GP and rheumatologist, alongside the hands on support we provide",
+          "We work alongside your medical team, and will flag any concerns about your hand symptoms or function to them"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "A new or worsening flare that isn't settling",
@@ -1582,7 +1977,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or rheumatologist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or rheumatologist.",
+    sources: [
+      {
+        title: "Occupational therapy for rheumatoid arthritis",
+        authors: "Steultjens et al.",
+        year: "2004",
+        note: "Found occupational therapy has a positive effect on daily function, with strong evidence specifically supporting joint protection instruction.",
+        url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003114.pub2/abstract"
+      }
+    ]
   },
   {
     id: "nerve-injury-recovery",
@@ -1605,6 +2009,20 @@ const STARTER_TEMPLATES = [
           "Protect the area from injury while sensation is reduced, especially from heat and sharp objects",
           "Follow any splinting or positioning advice to protect the healing nerve",
           "Desensitisation or sensory re-education exercises can help as feeling returns, we'll guide you on timing"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "Imaging doesn't show nerve function, so it isn't used to track your recovery",
+          "A nerve conduction study is sometimes used if there's uncertainty about how a nerve is recovering"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "You'll usually be under the care of your surgical team as well as therapy, we'll keep in touch with them about your progress",
+          "If recovery isn't progressing as expected, your surgeon may discuss further options with you"
         ]
       },
       {

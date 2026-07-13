@@ -320,6 +320,30 @@ body {
   line-height: 1.6;
 }
 
+.sources-wrap {
+  margin-top: 24px;
+  padding-top: 14px;
+  border-top: 1px solid var(--stone);
+}
+
+.sources-label {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--taupe);
+  margin-bottom: 6px;
+}
+
+.sources-list { display: flex; flex-direction: column; gap: 3px; }
+
+.source-item {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--taupe);
+}
+
 .page-footer {
   margin-top: 28px;
   padding-top: 12px;
