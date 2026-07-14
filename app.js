@@ -1,4 +1,4 @@
-const STORAGE_KEY = "nsht_handouts_v15";
+const STORAGE_KEY = "nsht_handouts_v16";
 const PATIENT_KEY = "nsht_patient_v1";
 
 function loadStore() {

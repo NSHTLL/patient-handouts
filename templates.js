@@ -736,7 +736,7 @@ const STARTER_TEMPLATES = [
     eyebrow: "PATIENT INFORMATION",
     title: "Thumb Base Arthritis (CMC Joint Osteoarthritis)",
     intro:
-      "Aching or sharp pain at the base of your thumb, especially with pinching or twisting? This is a common form of arthritis, and there's a lot that can help.",
+      "Aching or sharp pain at the base of your thumb, especially with pinching or twisting? This is a common form of arthritis affecting the carpometacarpal (CMC) joint, and there's a lot that can help.",
     sections: [
       {
         heading: "What's happening",
@@ -818,7 +818,7 @@ const STARTER_TEMPLATES = [
     eyebrow: "PATIENT INFORMATION",
     title: "TFCC Injury (Wrist Cartilage Injury)",
     intro:
-      "Pain on the little finger side of your wrist, especially with twisting or weight bearing through your hand? This may involve the small cartilage disc that cushions your wrist.",
+      "Pain on the little finger side of your wrist, especially with twisting or weight bearing through your hand? This may involve the triangular fibrocartilage complex (TFCC), a small cartilage disc that cushions your wrist.",
     sections: [
       {
         heading: "What's happening",
@@ -2363,7 +2363,7 @@ const STARTER_TEMPLATES = [
     eyebrow: "PATIENT INFORMATION",
     title: "Volar Plate Injury (Jammed Finger)",
     intro:
-      "Jammed your finger and now the middle knuckle is swollen, painful, and hard to straighten? This often involves the volar plate, a ligament that stops the finger bending too far backward.",
+      "Jammed your finger and now the middle knuckle, the proximal interphalangeal (PIP) joint, is swollen, painful, and hard to straighten? This often involves the volar plate, a ligament that stops the finger bending too far backward.",
     sections: [
       {
         heading: "What's happening",
@@ -2498,7 +2498,7 @@ const STARTER_TEMPLATES = [
     eyebrow: "PATIENT INFORMATION",
     title: "PIPJ Collateral Ligament Sprain (Jammed Finger)",
     intro:
-      "Twisted or jammed a finger sideways and now the middle knuckle is sore and swollen? This often involves the collateral ligaments that stabilise the joint from side to side.",
+      "Twisted or jammed a finger sideways and now the middle knuckle, the proximal interphalangeal (PIP) joint, is sore and swollen? This often involves the collateral ligaments that stabilise the joint from side to side.",
     sections: [
       {
         heading: "What's happening",
