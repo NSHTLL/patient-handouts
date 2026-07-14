@@ -1,4 +1,4 @@
-const STORAGE_KEY = "nsht_handouts_v12";
+const STORAGE_KEY = "nsht_handouts_v14";
 const PATIENT_KEY = "nsht_patient_v1";
 
 function loadStore() {
@@ -29,7 +29,9 @@ function getOriginal(id) {
 function renderSidebarList() {
   const list = document.getElementById("templateList");
   list.innerHTML = "";
-  store.order.forEach(id => {
+  const rendered = new Set();
+
+  function appendTemplateButton(id) {
     const t = getTemplate(id);
     if (!t) return;
     const btn = document.createElement("button");
@@ -41,7 +43,22 @@ function renderSidebarList() {
       renderPage();
     });
     list.appendChild(btn);
-  });
+  }
+
+  function appendGroup(label, ids) {
+    const matching = ids.filter(id => store.order.includes(id) && getTemplate(id));
+    if (!matching.length) return;
+    list.appendChild(el("div", "category-label", label));
+    matching.forEach(id => {
+      rendered.add(id);
+      appendTemplateButton(id);
+    });
+  }
+
+  (typeof HANDOUT_CATEGORIES !== "undefined" ? HANDOUT_CATEGORIES : []).forEach(cat => appendGroup(cat.name, cat.ids));
+
+  const leftover = store.order.filter(id => !rendered.has(id));
+  appendGroup("Other Handouts", leftover);
 }
 
 function el(tag, className, text) {
