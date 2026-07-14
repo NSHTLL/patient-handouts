@@ -2619,6 +2619,81 @@ const STARTER_TEMPLATES = [
         url: "https://pubmed.ncbi.nlm.nih.gov/39335652/"
       }
     ]
+  },
+  {
+    id: "mouse-options-nz",
+    eyebrow: "EQUIPMENT GUIDE",
+    title: "Choosing a Mouse for Hand or Wrist Pain (NZ Options)",
+    intro:
+      "Spending hours on a standard mouse can aggravate wrist and hand conditions. Switching to a vertical or ergonomic mouse is a simple, well studied change that can genuinely help, and there are options at almost every price point in New Zealand.",
+    sections: [
+      {
+        heading: "Why this can help",
+        bullets: [
+          "A vertical mouse keeps your forearm in a more neutral, handshake like position, rather than rotated flat",
+          "Research comparing vertical and standard mice found less forearm rotation and lower forearm muscle activity with a vertical design",
+          "A systematic review of controlled trials found alternative mouse designs, including vertical mice, can reduce discomfort for many users",
+          "It can take a week or two to adjust to a new mouse shape, this is normal"
+        ]
+      },
+      {
+        heading: "Budget option, around $15 to $20",
+        bullets: [
+          "Generic wireless vertical mice are available through marketplace sellers, including on The Warehouse's website, for around $15 to $20",
+          "A reasonable way to trial whether a vertical design suits you before spending more",
+          "Build quality and button feel are usually more basic at this price point"
+        ]
+      },
+      {
+        heading: "Mid-range option, around $90 to $120",
+        bullets: [
+          "Logitech Lift, widely available at Noel Leeming and PB Tech",
+          "A smaller, more compact vertical mouse, often preferred by people with smaller hands",
+          "A well reviewed, comfortable option for everyday use"
+        ]
+      },
+      {
+        heading: "Higher mid-range option, around $140 to $170",
+        bullets: [
+          "Logitech MX Vertical, available at Mighty Ape, PB Tech, and Office Products Depot",
+          "A larger vertical mouse with more programmable buttons and a steeper 57 degree angle",
+          "Good battery life and build quality for daily heavy use"
+        ]
+      },
+      {
+        heading: "Premium option, around $185 to $275",
+        bullets: [
+          "Evoluent VerticalMouse 4 or D, available at PB Tech and through NZ assistive technology suppliers",
+          "Purpose built for clinical and occupational use, with multiple size options",
+          "Often recommended for more significant or persistent symptoms"
+        ]
+      },
+      {
+        heading: "Choosing what's right for you",
+        bullets: [
+          "Hand size matters, a mouse that's too large or small for your hand can create new strain",
+          "Left handed options are available for some models, check before buying",
+          "We're happy to trial them with you and work out what suits your hands and your budget"
+        ]
+      }
+    ],
+    footerNote: "Prices are approximate and change over time, please check current pricing with the retailer before purchasing. This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Benefits of alternative computer mouse designs: A systematic review of controlled trials",
+        authors: "Radwan et al.",
+        year: "2018",
+        journal: "Cogent Engineering",
+        url: "https://www.tandfonline.com/doi/full/10.1080/23311916.2018.1521503"
+      },
+      {
+        title: "Biomechanics and performance when using a standard and a vertical computer mouse",
+        authors: "Quemelo and Vieira",
+        year: "2013",
+        journal: "Ergonomics",
+        url: "https://pubmed.ncbi.nlm.nih.gov/23777482/"
+      }
+    ]
   }
 ];
 
@@ -2663,6 +2738,6 @@ const HANDOUT_CATEGORIES = [
   },
   {
     name: "Work, Sport & Lifestyle",
-    ids: ["ergonomic-tips", "return-to-work", "return-to-sport", "managing-persistent-pain"]
+    ids: ["ergonomic-tips", "mouse-options-nz", "return-to-work", "return-to-sport", "managing-persistent-pain"]
   }
 ];
