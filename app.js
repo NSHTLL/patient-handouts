@@ -1,4 +1,4 @@
-const STORAGE_KEY = "nsht_handouts_v9";
+const STORAGE_KEY = "nsht_handouts_v12";
 const PATIENT_KEY = "nsht_patient_v1";
 
 function loadStore() {
@@ -67,7 +67,7 @@ function renderPage() {
     sourcesWrap.style.display = "";
     t.sources.forEach(src => {
       const item = el("div", "source-item");
-      item.textContent = `${src.title} (${src.authors}, ${src.year}). Cochrane Database of Systematic Reviews. ${src.note}`;
+      item.textContent = `${src.title} (${src.authors}, ${src.year}). ${src.journal}.`;
       sourcesList.appendChild(item);
     });
   } else {

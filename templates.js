@@ -1,5 +1,5 @@
 // Starter handout content. These are DRAFTS for a hand therapist to review,
-// correct, and customize before giving to any patient — not verified clinical
+// correct, and customise before giving to any patient — not verified clinical
 // instructions. Edit directly in the app; changes are saved automatically.
 
 const STARTER_TEMPLATES = [
@@ -51,6 +51,14 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "A basic starting point",
+        bullets: [
+          "These gentle nerve and tendon glides may help alongside splinting, not instead of it",
+          "Evidence for how much they help on their own is limited, so think of them as a helpful extra",
+          "Move slowly, only within a comfortable range, and stop if tingling increases"
+        ]
+      },
+      {
         heading: "Imaging",
         bullets: [
           "Imaging isn't usually needed, carpal tunnel is often diagnosed from your symptoms and a physical assessment",
@@ -73,13 +81,18 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
+    exercises: [
+      { name: "Loose fist", instruction: "Make a loose fist with your wrist straight.", icon: "fist-full" },
+      { name: "Fingers straight", instruction: "Open your hand so your fingers and thumb are straight.", icon: "hand-flat" },
+      { name: "Gentle wrist stretch", instruction: "With your palm facing away, gently bend your wrist and fingers back and hold briefly.", icon: "hand-flat" }
+    ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
       {
         title: "Splinting for carpal tunnel syndrome",
         authors: "Karjalainen et al.",
         year: "2023",
-        note: "Found limited evidence that a night splint helps more than no treatment in the short term.",
+        journal: "Cochrane Database of Systematic Reviews",
         url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010003.pub2/full"
       }
     ]
@@ -130,6 +143,14 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "A basic starting point",
+        bullets: [
+          "Gentle range of motion exercises can help maintain movement while the finger settles",
+          "The blocking exercise below isolates the affected joint and is commonly used alongside splinting",
+          "Ease off if the finger is locking or catching more, rather than pushing through it"
+        ]
+      },
+      {
         heading: "Imaging",
         bullets: [
           "Imaging usually isn't needed, trigger finger is diagnosed from your symptoms and how the finger moves",
@@ -151,13 +172,17 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
+    exercises: [
+      { name: "Straighten and bend", instruction: "Gently straighten then bend the affected finger through its full comfortable range." },
+      { name: "Blocking exercise", instruction: "Hold the base knuckle still with your other hand, then bend and straighten just the middle joint of the affected finger." }
+    ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
       {
         title: "Corticosteroid injection for trigger finger in adults",
         authors: "Peters-Veluthamaningal et al.",
         year: "2009",
-        note: "Based on limited data, found a steroid injection may work better than local anaesthetic alone by 4 weeks.",
+        journal: "Cochrane Database of Systematic Reviews",
         url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005617.pub2/full"
       }
     ]
@@ -207,6 +232,14 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "A basic starting point",
+        bullets: [
+          "These gentle movements help maintain motion while the tendons settle",
+          "Avoid stretching into pain, gentle and pain free is the aim",
+          "Build up gradually as symptoms allow"
+        ]
+      },
+      {
         heading: "Imaging",
         bullets: [
           "Imaging usually isn't needed, De Quervain's is diagnosed from your symptoms and a simple examination",
@@ -228,13 +261,17 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
+    exercises: [
+      { name: "Thumb glide", instruction: "Gently move your thumb away from your palm, then back across your palm, staying pain free.", icon: "thumb-out" },
+      { name: "Wrist circles", instruction: "Make slow, gentle circles with your wrist, keeping your thumb relaxed." }
+    ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
       {
         title: "Corticosteroid injection for de Quervain's tenosynovitis",
         authors: "Peters-Veluthamaningal et al.",
         year: "2009",
-        note: "Based on a single small trial in pregnant or breastfeeding women, found injection may work better than splinting alone. Not yet confirmed in the wider population.",
+        journal: "Cochrane Database of Systematic Reviews",
         url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005616.pub2/full"
       }
     ]
@@ -336,7 +373,7 @@ const STARTER_TEMPLATES = [
     eyebrow: "PATIENT INFORMATION",
     title: "Mallet Finger",
     intro:
-      "Got a fingertip that's a bit ‘droopy’ and just won't straighten on its own? This is a common injury, and splinting almost always does the trick.",
+      "Noticing a fingertip that's drooping and won't straighten on its own? This is a common injury, and splinting is usually all that's needed to resolve it.",
     sections: [
       {
         heading: "What's happening",
@@ -383,7 +420,7 @@ const STARTER_TEMPLATES = [
         title: "Interventions for treating mallet finger injuries",
         authors: "Handoll and Vaghela",
         year: "2004",
-        note: "Based on only 4 small, methodologically weak trials, found not enough evidence to identify the single best splinting method.",
+        journal: "Cochrane Database of Systematic Reviews",
         url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004574.pub2/abstract"
       }
     ]
@@ -446,7 +483,7 @@ const STARTER_TEMPLATES = [
         title: "Surgery for Dupuytren's contracture of the fingers",
         authors: "Rodrigues et al.",
         year: "2015",
-        note: "Found insufficient evidence to determine which surgical procedure works best, and questioned the value of routine splinting after surgery.",
+        journal: "Cochrane Database of Systematic Reviews",
         url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010143.pub2/full"
       }
     ]
@@ -496,6 +533,14 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "A basic starting point",
+        bullets: [
+          "Gentle nerve gliding, like the movements below, is sometimes used alongside activity changes",
+          "The evidence doesn't clearly show gliding exercises add extra benefit on top of activity changes and night positioning alone, so don't worry if you skip them",
+          "Move slowly and stop if you feel tingling or sharp discomfort"
+        ]
+      },
+      {
         heading: "Imaging",
         bullets: [
           "Imaging isn't usually needed, cubital tunnel is often diagnosed from your symptoms and a physical assessment",
@@ -518,13 +563,18 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
+    exercises: [
+      { name: "Start position", instruction: "Straighten your elbow with your wrist and fingers relaxed." },
+      { name: "Wrist and fingers back", instruction: "Gently bend your wrist and fingers back." },
+      { name: "Elbow bend", instruction: "Slowly bend your elbow, bringing your hand toward your shoulder, keeping the stretch gentle." }
+    ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
       {
         title: "Treatment for ulnar neuropathy at the elbow",
         authors: "Caliandro et al.",
         year: "2025",
-        note: "For mild to moderate cases, found written self-management guidance alone worked about as well as adding splints or exercises.",
+        journal: "Cochrane Database of Systematic Reviews",
         url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006839.pub5/full"
       }
     ]
@@ -575,6 +625,14 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "A basic starting point",
+        bullets: [
+          "These are a gentle entry point, a therapist guided loading programme is usually needed to build strength from here",
+          "Isometric holds, pressing without moving, can ease pain and are a safe way to begin",
+          "Keep effort gentle to moderate, sharp pain means back off"
+        ]
+      },
+      {
         heading: "Imaging",
         bullets: [
           "Imaging usually isn't needed, tennis elbow is diagnosed from your symptoms and a physical assessment",
@@ -596,13 +654,17 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
+    exercises: [
+      { name: "Gentle stretch", instruction: "With your elbow straight, gently bend your wrist down and hold for a few seconds." },
+      { name: "Isometric hold", instruction: "Rest your forearm on a table, palm down. Gently press the back of your hand up against your other hand without moving your wrist, and hold." }
+    ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
       {
         title: "Manual therapy and exercise for lateral elbow pain",
         authors: "Wallis et al.",
         year: "2024",
-        note: "Found manual therapy and exercise may slightly reduce pain and disability in the short term, though benefits were modest and not clearly sustained long term.",
+        journal: "Cochrane Database of Systematic Reviews",
         url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013042.pub2/full"
       }
     ]
@@ -652,6 +714,14 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "A basic starting point",
+        bullets: [
+          "These are a gentle entry point, a therapist guided loading programme is usually needed to build strength from here",
+          "Isometric holds, pressing without moving, can ease pain and are a safe way to begin",
+          "Keep effort gentle to moderate, sharp pain means back off"
+        ]
+      },
+      {
         heading: "Imaging",
         bullets: [
           "Imaging usually isn't needed, golfer's elbow is diagnosed from your symptoms and a physical assessment",
@@ -673,6 +743,10 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
+    exercises: [
+      { name: "Gentle stretch", instruction: "With your elbow straight, gently bend your wrist back and hold for a few seconds." },
+      { name: "Isometric hold", instruction: "Rest your forearm on a table, palm up. Gently press your palm up against your other hand without moving your wrist, and hold." }
+    ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
   },
   {
@@ -680,7 +754,7 @@ const STARTER_TEMPLATES = [
     eyebrow: "PATIENT INFORMATION",
     title: "Ganglion Cyst",
     intro:
-      "Found a soft lump near a joint or tendon in your wrist or hand? Most of the time, this is a ganglion cyst, and it's more of a nuisance than a worry.",
+      "Found a soft lump near a joint or tendon in your wrist or hand? Most of the time, this is a ganglion cyst, and it's a minor issue rather than a cause for concern.",
     sections: [
       {
         heading: "What's happening",
@@ -720,7 +794,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Ganglions in the Hand and Wrist: Advances in 2 Decades",
+        authors: "Zoller et al.",
+        year: "2023",
+        journal: "Journal of the American Academy of Orthopaedic Surgeons",
+        url: "https://pubmed.ncbi.nlm.nih.gov/36580047/"
+      }
+    ]
   },
   {
     id: "thumb-cmc-oa",
@@ -772,6 +855,14 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "A basic starting point",
+        bullets: [
+          "Gentle movement helps keep the joint mobile without overloading it",
+          "Avoid forcing a stretch into pain",
+          "These are general starting exercises, we'll tailor a fuller programme to your specific stiffness or weakness"
+        ]
+      },
+      {
         heading: "Imaging",
         bullets: [
           "An X-ray may be used to confirm the diagnosis and see how advanced the joint changes are",
@@ -793,7 +884,20 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    exercises: [
+      { name: "Thumb circles", instruction: "Make slow, gentle circles with your thumb tip, one way then the other.", icon: "thumb-out" },
+      { name: "Web space stretch", instruction: "Gently stretch your thumb away from your palm to open the web space, only as far as comfortable.", icon: "thumb-out" }
+    ],
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Comparative Effectiveness of Orthoses for Thumb Osteoarthritis: A Systematic Review and Network Meta-analysis",
+        authors: "Marotta et al.",
+        year: "2020",
+        journal: "Archives of Physical Medicine and Rehabilitation",
+        url: "https://pubmed.ncbi.nlm.nih.gov/32668206/"
+      }
+    ]
   },
   {
     id: "tfcc-injury",
@@ -862,7 +966,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Review and update on the management of triangular fibrocartilage complex injuries in professional athletes",
+        authors: "Pace et al.",
+        year: "2024",
+        journal: "World Journal of Orthopedics",
+        url: "https://pubmed.ncbi.nlm.nih.gov/38464359/"
+      }
+    ]
   },
   {
     id: "hand-oa",
@@ -927,6 +1040,14 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
+        heading: "A basic starting point",
+        bullets: [
+          "Gentle daily movement through a full range helps keep joints mobile, even during a flare",
+          "Little and often works better than pushing hard once a day",
+          "Ease off if a joint is hot or acutely swollen"
+        ]
+      },
+      {
         heading: "When to get in touch",
         bullets: [
           "A joint becomes hot or significantly swollen",
@@ -934,13 +1055,18 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
+    exercises: [
+      { name: "Straight hand", instruction: "Fingers straight and together, like a flat hand.", icon: "hand-flat" },
+      { name: "Full fist", instruction: "Gently curl your fingers into your palm.", icon: "fist-full" },
+      { name: "Thumb touches", instruction: "Gently touch your thumb tip to each fingertip in turn." }
+    ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
       {
         title: "Exercise for hand osteoarthritis",
         authors: "Østerås et al.",
         year: "2017",
-        note: "Found low quality evidence of small, short term improvements in hand pain, function, and finger stiffness with exercise, not clearly sustained at 6 to 12 months.",
+        journal: "Cochrane Database of Systematic Reviews",
         url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010388.pub2/full"
       }
     ]
@@ -1143,7 +1269,7 @@ const STARTER_TEMPLATES = [
         title: "Rehabilitation for distal radial fractures in adults",
         authors: "Handoll et al.",
         year: "2015",
-        note: "Found insufficient evidence to determine the single best rehabilitation approach, with very low quality evidence that hand therapy helps more than instructions alone shortly after cast removal.",
+        journal: "Cochrane Database of Systematic Reviews",
         url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003324.pub3/full"
       }
     ]
@@ -1203,7 +1329,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon.",
+    sources: [
+      {
+        title: "A review of scaphoid fracture, treatment outcomes, and consequences",
+        authors: "Almigdad et al.",
+        year: "2024",
+        journal: "International Orthopaedics",
+        url: "https://pubmed.ncbi.nlm.nih.gov/37880341/"
+      }
+    ]
   },
   {
     id: "metacarpal-fracture",
@@ -1266,7 +1401,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon.",
+    sources: [
+      {
+        title: "Metacarpal fractures",
+        authors: "Lambi et al.",
+        year: "2023",
+        journal: "Journal of Hand Surgery (European Volume)",
+        url: "https://journals.sagepub.com/doi/full/10.1177/17531934231184119"
+      }
+    ]
   },
   {
     id: "finger-fracture",
@@ -1327,7 +1471,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon.",
+    sources: [
+      {
+        title: "Rehabilitation following extra-articular proximal phalangeal fractures of the fingers in adults: a scoping review",
+        authors: "Vervloesem et al.",
+        year: "2023",
+        journal: "Hand Therapy",
+        url: "https://pubmed.ncbi.nlm.nih.gov/37904862/"
+      }
+    ]
   },
   {
     id: "radial-head-fracture",
@@ -1390,7 +1543,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon.",
+    sources: [
+      {
+        title: "Current concepts in the management of radial head fractures: a national survey and review of the literature",
+        authors: "Barakat et al.",
+        year: "2023",
+        journal: "Annals of the Royal College of Surgeons of England",
+        url: "https://publishing.rcseng.ac.uk/doi/full/10.1308/rcsann.2022.0109"
+      }
+    ]
   },
   {
     id: "cast-care",
@@ -1592,7 +1754,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "The effects of sensory re-education on hand function recovery after peripheral nerve repair: A systematic review",
+        authors: "Xia et al.",
+        year: "2021",
+        journal: "NeuroRehabilitation",
+        url: "https://pubmed.ncbi.nlm.nih.gov/33814470/"
+      }
+    ]
   },
   {
     id: "scar-massage",
@@ -1625,7 +1796,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Is massage an effective intervention in the management of post-operative scarring? A scoping review",
+        authors: "Scott et al.",
+        year: "2022",
+        journal: "Journal of Hand Therapy",
+        url: "https://www.jhandtherapy.org/article/S0894-1130(22)00005-9/abstract"
+      }
+    ]
   },
   {
     id: "median-nerve-glide",
@@ -1657,7 +1837,7 @@ const STARTER_TEMPLATES = [
         title: "Exercise and mobilisation interventions for carpal tunnel syndrome",
         authors: "Page et al.",
         year: "2012",
-        note: "Found limited, very low quality evidence that nerve and tendon gliding exercises may help carpal tunnel symptoms and hand function. More research is needed.",
+        journal: "Cochrane Database of Systematic Reviews",
         url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009899/full"
       }
     ]
@@ -1772,7 +1952,7 @@ const STARTER_TEMPLATES = [
     eyebrow: "HOME CARE PROGRAMME",
     title: "Using Cold and Heat at Home",
     intro:
-      "Cold and heat can both be useful tools for managing pain and stiffness, it's just about knowing when to reach for which.",
+      "Cold and heat are both useful tools for managing pain and stiffness. Knowing when to use each makes the difference.",
     sections: [
       {
         heading: "When to use cold",
@@ -1983,7 +2163,7 @@ const STARTER_TEMPLATES = [
         title: "Occupational therapy for rheumatoid arthritis",
         authors: "Steultjens et al.",
         year: "2004",
-        note: "Found occupational therapy has a positive effect on daily function, with strong evidence specifically supporting joint protection instruction.",
+        journal: "Cochrane Database of Systematic Reviews",
         url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003114.pub2/abstract"
       }
     ]
@@ -2068,7 +2248,16 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or burns team."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or burns team.",
+    sources: [
+      {
+        title: "Rehabilitation interventions after hand burn injury in adults: A systematic review",
+        authors: "Edger-Lacoursière et al.",
+        year: "2023",
+        journal: "Burns",
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0305417922001140"
+      }
+    ]
   },
   {
     id: "return-to-work",
@@ -2145,14 +2334,23 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or ACC case manager."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or ACC case manager.",
+    sources: [
+      {
+        title: "What are the Predictors of Return to Work for People With Elbow, Wrist, and Hand Conditions? A Systematic Review",
+        authors: "Bousfield et al.",
+        year: "2022",
+        journal: "Journal of Occupational Rehabilitation",
+        url: "https://pubmed.ncbi.nlm.nih.gov/34309763/"
+      }
+    ]
   },
   {
     id: "return-to-sport",
     eyebrow: "PATIENT INFORMATION",
     title: "Returning to Sport After a Hand Injury",
     intro:
-      "Keen to get back to your sport? A staged return helps you get back doing what you love while protecting your recovery.",
+      "Wanting to get back to your sport? A staged return helps you get back to what you love while protecting your recovery.",
     sections: [
       {
         heading: "Planning your return",
@@ -2248,6 +2446,15 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
+    sources: [
+      {
+        title: "Pain Neuroscience Education for Adults With Chronic Musculoskeletal Pain: A Mixed-Methods Systematic Review and Meta-Analysis",
+        authors: "Watson et al.",
+        year: "2019",
+        journal: "The Journal of Pain",
+        url: "https://doi.org/10.1016/j.jpain.2019.02.011"
+      }
+    ]
   }
 ];
