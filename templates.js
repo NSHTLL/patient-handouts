@@ -51,14 +51,6 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
-        heading: "A basic starting point",
-        bullets: [
-          "These gentle nerve and tendon glides may help alongside splinting, not instead of it",
-          "Evidence for how much they help on their own is limited, so think of them as a helpful extra",
-          "Move slowly, only within a comfortable range, and stop if tingling increases"
-        ]
-      },
-      {
         heading: "Imaging",
         bullets: [
           "Imaging isn't usually needed, carpal tunnel is often diagnosed from your symptoms and a physical assessment",
@@ -80,11 +72,6 @@ const STARTER_TEMPLATES = [
           "No improvement after a few weeks of self care"
         ]
       }
-    ],
-    exercises: [
-      { name: "Loose fist", instruction: "Make a loose fist with your wrist straight.", icon: "fist-full" },
-      { name: "Fingers straight", instruction: "Open your hand so your fingers and thumb are straight.", icon: "hand-flat" },
-      { name: "Gentle wrist stretch", instruction: "With your palm facing away, gently bend your wrist and fingers back and hold briefly.", icon: "hand-flat" }
     ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
@@ -143,14 +130,6 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
-        heading: "A basic starting point",
-        bullets: [
-          "Gentle range of motion exercises can help maintain movement while the finger settles",
-          "The blocking exercise below isolates the affected joint and is commonly used alongside splinting",
-          "Ease off if the finger is locking or catching more, rather than pushing through it"
-        ]
-      },
-      {
         heading: "Imaging",
         bullets: [
           "Imaging usually isn't needed, trigger finger is diagnosed from your symptoms and how the finger moves",
@@ -171,10 +150,6 @@ const STARTER_TEMPLATES = [
           "Symptoms are getting in the way of daily tasks"
         ]
       }
-    ],
-    exercises: [
-      { name: "Straighten and bend", instruction: "Gently straighten then bend the affected finger through its full comfortable range." },
-      { name: "Blocking exercise", instruction: "Hold the base knuckle still with your other hand, then bend and straighten just the middle joint of the affected finger." }
     ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
@@ -232,14 +207,6 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
-        heading: "A basic starting point",
-        bullets: [
-          "These gentle movements help maintain motion while the tendons settle",
-          "Avoid stretching into pain, gentle and pain free is the aim",
-          "Build up gradually as symptoms allow"
-        ]
-      },
-      {
         heading: "Imaging",
         bullets: [
           "Imaging usually isn't needed, De Quervain's is diagnosed from your symptoms and a simple examination",
@@ -260,10 +227,6 @@ const STARTER_TEMPLATES = [
           "Pain is limiting everyday activities like lifting or holding"
         ]
       }
-    ],
-    exercises: [
-      { name: "Thumb glide", instruction: "Gently move your thumb away from your palm, then back across your palm, staying pain free.", icon: "thumb-out" },
-      { name: "Wrist circles", instruction: "Make slow, gentle circles with your wrist, keeping your thumb relaxed." }
     ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
@@ -533,14 +496,6 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
-        heading: "A basic starting point",
-        bullets: [
-          "Gentle nerve gliding, like the movements below, is sometimes used alongside activity changes",
-          "The evidence doesn't clearly show gliding exercises add extra benefit on top of activity changes and night positioning alone, so don't worry if you skip them",
-          "Move slowly and stop if you feel tingling or sharp discomfort"
-        ]
-      },
-      {
         heading: "Imaging",
         bullets: [
           "Imaging isn't usually needed, cubital tunnel is often diagnosed from your symptoms and a physical assessment",
@@ -562,11 +517,6 @@ const STARTER_TEMPLATES = [
           "Symptoms not easing with these changes"
         ]
       }
-    ],
-    exercises: [
-      { name: "Start position", instruction: "Straighten your elbow with your wrist and fingers relaxed." },
-      { name: "Wrist and fingers back", instruction: "Gently bend your wrist and fingers back." },
-      { name: "Elbow bend", instruction: "Slowly bend your elbow, bringing your hand toward your shoulder, keeping the stretch gentle." }
     ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
@@ -625,14 +575,6 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
-        heading: "A basic starting point",
-        bullets: [
-          "These are a gentle entry point, a therapist guided loading programme is usually needed to build strength from here",
-          "Isometric holds, pressing without moving, can ease pain and are a safe way to begin",
-          "Keep effort gentle to moderate, sharp pain means back off"
-        ]
-      },
-      {
         heading: "Imaging",
         bullets: [
           "Imaging usually isn't needed, tennis elbow is diagnosed from your symptoms and a physical assessment",
@@ -653,10 +595,6 @@ const STARTER_TEMPLATES = [
           "Pain isn't easing with rest"
         ]
       }
-    ],
-    exercises: [
-      { name: "Gentle stretch", instruction: "With your elbow straight, gently bend your wrist down and hold for a few seconds." },
-      { name: "Isometric hold", instruction: "Rest your forearm on a table, palm down. Gently press the back of your hand up against your other hand without moving your wrist, and hold." }
     ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
@@ -714,14 +652,6 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
-        heading: "A basic starting point",
-        bullets: [
-          "These are a gentle entry point, a therapist guided loading programme is usually needed to build strength from here",
-          "Isometric holds, pressing without moving, can ease pain and are a safe way to begin",
-          "Keep effort gentle to moderate, sharp pain means back off"
-        ]
-      },
-      {
         heading: "Imaging",
         bullets: [
           "Imaging usually isn't needed, golfer's elbow is diagnosed from your symptoms and a physical assessment",
@@ -742,10 +672,6 @@ const STARTER_TEMPLATES = [
           "No improvement with rest and activity changes"
         ]
       }
-    ],
-    exercises: [
-      { name: "Gentle stretch", instruction: "With your elbow straight, gently bend your wrist back and hold for a few seconds." },
-      { name: "Isometric hold", instruction: "Rest your forearm on a table, palm up. Gently press your palm up against your other hand without moving your wrist, and hold." }
     ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist."
   },
@@ -855,14 +781,6 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
-        heading: "A basic starting point",
-        bullets: [
-          "Gentle movement helps keep the joint mobile without overloading it",
-          "Avoid forcing a stretch into pain",
-          "These are general starting exercises, we'll tailor a fuller programme to your specific stiffness or weakness"
-        ]
-      },
-      {
         heading: "Imaging",
         bullets: [
           "An X-ray may be used to confirm the diagnosis and see how advanced the joint changes are",
@@ -883,10 +801,6 @@ const STARTER_TEMPLATES = [
           "The base of your thumb looks more prominent or is changing shape"
         ]
       }
-    ],
-    exercises: [
-      { name: "Thumb circles", instruction: "Make slow, gentle circles with your thumb tip, one way then the other.", icon: "thumb-out" },
-      { name: "Web space stretch", instruction: "Gently stretch your thumb away from your palm to open the web space, only as far as comfortable.", icon: "thumb-out" }
     ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
@@ -1040,25 +954,12 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
-        heading: "A basic starting point",
-        bullets: [
-          "Gentle daily movement through a full range helps keep joints mobile, even during a flare",
-          "Little and often works better than pushing hard once a day",
-          "Ease off if a joint is hot or acutely swollen"
-        ]
-      },
-      {
         heading: "When to get in touch",
         bullets: [
           "A joint becomes hot or significantly swollen",
           "Pain is limiting activities you enjoy"
         ]
       }
-    ],
-    exercises: [
-      { name: "Straight hand", instruction: "Fingers straight and together, like a flat hand.", icon: "hand-flat" },
-      { name: "Full fist", instruction: "Gently curl your fingers into your palm.", icon: "fist-full" },
-      { name: "Thumb touches", instruction: "Gently touch your thumb tip to each fingertip in turn." }
     ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist.",
     sources: [
@@ -2517,10 +2418,6 @@ const STARTER_TEMPLATES = [
         ]
       }
     ],
-    exercises: [
-      { name: "Gentle bend and straighten", instruction: "With your finger buddy taped if advised, gently bend and straighten the joint within a comfortable range." },
-      { name: "Tabletop stretch", instruction: "Rest your fingers flat on a table and gently lift just the fingertip, keeping the middle joint down, only as far as comfortable." }
-    ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon.",
     sources: [
       {
@@ -2563,14 +2460,6 @@ const STARTER_TEMPLATES = [
         ]
       },
       {
-        heading: "A basic starting point",
-        bullets: [
-          "These gentle movements are an early, low load starting point",
-          "A full return to throwing needs a structured, progressive strengthening and throwing programme, best guided in person",
-          "Keep effort gentle, sharp pain or a popping sensation means stop and get reassessed"
-        ]
-      },
-      {
         heading: "Imaging",
         bullets: [
           "An X-ray may be taken to rule out a bony injury",
@@ -2592,10 +2481,6 @@ const STARTER_TEMPLATES = [
           "Tingling or numbness into your ring and little fingers"
         ]
       }
-    ],
-    exercises: [
-      { name: "Gentle stretch", instruction: "With your elbow straight, gently bend your wrist back and hold for a few seconds." },
-      { name: "Isometric hold", instruction: "Rest your forearm on a table, palm up. Gently press your palm up against your other hand without moving your wrist, and hold." }
     ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist or specialist.",
     sources: [
@@ -2667,10 +2552,6 @@ const STARTER_TEMPLATES = [
           "Increasing pain"
         ]
       }
-    ],
-    exercises: [
-      { name: "Gentle bend and straighten", instruction: "With your finger buddy taped if advised, gently bend and straighten the joint within a comfortable range." },
-      { name: "Side stability check", instruction: "Gently move the joint through its normal bending motion, avoiding any sideways stress, only as far as comfortable." }
     ],
     footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon."
   },
