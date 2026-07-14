@@ -2456,5 +2456,332 @@ const STARTER_TEMPLATES = [
         url: "https://doi.org/10.1016/j.jpain.2019.02.011"
       }
     ]
+  },
+  {
+    id: "volar-plate-injury",
+    eyebrow: "PATIENT INFORMATION",
+    title: "Volar Plate Injury (Jammed Finger)",
+    intro:
+      "Jammed your finger and now the middle knuckle is swollen, painful, and hard to straighten? This often involves the volar plate, a ligament that stops the finger bending too far backward.",
+    sections: [
+      {
+        heading: "What's happening",
+        bullets: [
+          "The volar plate is a thick ligament on the palm side of your middle finger joint (the PIP joint), which stops the joint bending backward too far",
+          "A jam, often from a ball or a fall, can sprain or tear the volar plate, and sometimes takes a small flake of bone with it (an avulsion fracture)",
+          "This causes pain, swelling, and difficulty fully straightening or bending the joint"
+        ]
+      },
+      {
+        heading: "What can help",
+        bullets: [
+          "Buddy taping to the neighbouring finger supports the joint during early healing",
+          "A small splint may be used to protect the joint, positioned as advised",
+          "Avoid forcing the joint straight, gentle guided movement is usually better than rigid immobilisation"
+        ]
+      },
+      {
+        heading: "Equipment and everyday tips",
+        bullets: [
+          "Buddy tape or a finger splint protects the joint during daily tasks",
+          "Avoid ball sports or activities that could re-jam the finger until cleared"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Avoid catching or ball sports until the joint is more stable",
+          "Build grip and load back up gradually once cleared"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "An X-ray is often taken to check for a small avulsion fracture or joint instability",
+          "This helps guide how much movement is safe early on"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Most volar plate injuries heal well with buddy taping and therapist guided movement",
+          "If the joint is very unstable or a large fragment of bone is involved, we may refer you to a hand surgeon to discuss further options"
+        ]
+      },
+      {
+        heading: "When to get in touch",
+        bullets: [
+          "The joint feels unstable or gives way",
+          "You can't straighten the finger fully after a few weeks",
+          "Increasing pain, swelling, or stiffness"
+        ]
+      }
+    ],
+    exercises: [
+      { name: "Gentle bend and straighten", instruction: "With your finger buddy taped if advised, gently bend and straighten the joint within a comfortable range." },
+      { name: "Tabletop stretch", instruction: "Rest your fingers flat on a table and gently lift just the fingertip, keeping the middle joint down, only as far as comfortable." }
+    ],
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon.",
+    sources: [
+      {
+        title: "Management of stable proximal interphalangeal joint volar plate injuries with figure-of-8 orthoses: A parallel-group randomized controlled trial",
+        authors: "Grange et al.",
+        year: "2024",
+        journal: "Journal of Hand Therapy",
+        url: "https://www.jhandtherapy.org/article/S0894-1130(23)00173-4/abstract"
+      }
+    ]
+  },
+  {
+    id: "elbow-ucl-sprain",
+    eyebrow: "PATIENT INFORMATION",
+    title: "Elbow Ligament Sprain (UCL Injury)",
+    intro:
+      "Pain on the inside of your elbow during or after throwing? This may involve the ulnar collateral ligament (UCL), a key stabiliser for throwing athletes.",
+    sections: [
+      {
+        heading: "What's happening",
+        bullets: [
+          "The ulnar collateral ligament runs along the inside of your elbow and stabilises it during throwing and overhead movements",
+          "Repetitive throwing, or a single forceful movement, can strain or tear this ligament",
+          "This causes pain on the inside of the elbow, often worse with throwing or gripping"
+        ]
+      },
+      {
+        heading: "What can help",
+        bullets: [
+          "Rest from throwing and aggravating activities allows the ligament to settle",
+          "A structured, graded return to throwing programme is usually needed, this isn't a quick fix",
+          "Strengthening the forearm and shoulder muscles supports the ligament as you progress"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Avoid throwing or forceful gripping until cleared",
+          "Build load back up gradually with a therapist guided throwing progression"
+        ]
+      },
+      {
+        heading: "A basic starting point",
+        bullets: [
+          "These gentle movements are an early, low load starting point",
+          "A full return to throwing needs a structured, progressive strengthening and throwing programme, best guided in person",
+          "Keep effort gentle, sharp pain or a popping sensation means stop and get reassessed"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "An X-ray may be taken to rule out a bony injury",
+          "An ultrasound or MRI is often used to assess the ligament itself if a tear is suspected"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Mild sprains often settle with rest and a graded rehabilitation programme",
+          "If there's a significant tear, especially in a competitive throwing athlete, we may refer you to a specialist to discuss further options, including surgery in some cases"
+        ]
+      },
+      {
+        heading: "When to get in touch",
+        bullets: [
+          "Pain persists despite rest",
+          "You feel instability or a popping sensation in the elbow",
+          "Tingling or numbness into your ring and little fingers"
+        ]
+      }
+    ],
+    exercises: [
+      { name: "Gentle stretch", instruction: "With your elbow straight, gently bend your wrist back and hold for a few seconds." },
+      { name: "Isometric hold", instruction: "Rest your forearm on a table, palm up. Gently press your palm up against your other hand without moving your wrist, and hold." }
+    ],
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or specialist.",
+    sources: [
+      {
+        title: "Elbow Ulnar Collateral Ligament Injuries in Throwing Athletes: Diagnosis and Management",
+        authors: "Gehrman and Grandizio",
+        year: "2022",
+        journal: "Journal of Hand Surgery (American Volume)",
+        url: "https://pubmed.ncbi.nlm.nih.gov/35246298/"
+      }
+    ]
+  },
+  {
+    id: "pipj-collateral-sprain",
+    eyebrow: "PATIENT INFORMATION",
+    title: "PIPJ Collateral Ligament Sprain (Jammed Finger)",
+    intro:
+      "Twisted or jammed a finger sideways and now the middle knuckle is sore and swollen? This often involves the collateral ligaments that stabilise the joint from side to side.",
+    sections: [
+      {
+        heading: "What's happening",
+        bullets: [
+          "Collateral ligaments run along each side of your middle finger joint (the PIP joint), stopping it from bending sideways",
+          "A sideways force, often from a ball or a fall, can sprain or partially tear one of these ligaments",
+          "This causes pain, swelling, and tenderness on the side of the joint"
+        ]
+      },
+      {
+        heading: "What can help",
+        bullets: [
+          "Buddy taping to the neighbouring finger supports the joint side to side while allowing bend and straighten movement",
+          "Gentle movement within a comfortable range helps prevent stiffness",
+          "Avoid sideways stress on the finger while it heals"
+        ]
+      },
+      {
+        heading: "Equipment and everyday tips",
+        bullets: [
+          "Buddy tape supports the joint during daily tasks and sport",
+          "Avoid ball sports until the joint is more stable"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Avoid catching or ball sports until cleared",
+          "Build grip and load back up gradually once the joint feels stable"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "An X-ray is often taken to rule out a fracture or joint instability",
+          "This isn't always needed for a straightforward sprain"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "Most collateral ligament sprains heal well with buddy taping and gentle movement",
+          "If the joint is very unstable or not improving, we may refer you to a hand surgeon for further assessment"
+        ]
+      },
+      {
+        heading: "When to get in touch",
+        bullets: [
+          "The joint feels unstable or gives way to the side",
+          "Stiffness or swelling isn't easing after a few weeks",
+          "Increasing pain"
+        ]
+      }
+    ],
+    exercises: [
+      { name: "Gentle bend and straighten", instruction: "With your finger buddy taped if advised, gently bend and straighten the joint within a comfortable range." },
+      { name: "Side stability check", instruction: "Gently move the joint through its normal bending motion, avoiding any sideways stress, only as far as comfortable." }
+    ],
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or surgeon."
+  },
+  {
+    id: "crps",
+    eyebrow: "PATIENT INFORMATION",
+    title: "Complex Regional Pain Syndrome (CRPS)",
+    intro:
+      "Pain, swelling, stiffness, or changes in colour and temperature that seem out of proportion to your original injury, and aren't settling as expected? This may be complex regional pain syndrome, a condition that responds well to early, active treatment.",
+    sections: [
+      {
+        heading: "What's happening",
+        bullets: [
+          "CRPS is a condition where the nervous system becomes overprotective after an injury, even a relatively minor one, leading to pain, swelling, and sensitivity greater than expected",
+          "You may also notice changes in skin colour, temperature, sweating, or hair and nail growth in the affected hand or arm",
+          "The exact cause isn't fully understood, but early recognition and active treatment give the best outcomes"
+        ]
+      },
+      {
+        heading: "What can help",
+        bullets: [
+          "Keeping the limb gently moving is one of the most important things you can do, complete rest tends to make things worse, not better",
+          "Graded motor imagery and mirror therapy, gently retraining how your brain processes movement, has good evidence behind it and is something we can guide you through",
+          "Desensitisation techniques help your nervous system tolerate touch and textures again",
+          "Managing stress, sleep, and pacing activity genuinely support recovery, this isn't in your head, but your nervous system's overall state does influence pain"
+        ]
+      },
+      {
+        heading: "Grip and load management",
+        bullets: [
+          "Use the hand for gentle, everyday tasks within what feels manageable, rather than avoiding it completely",
+          "Build activity up gradually, a flare doesn't mean you're causing damage, it usually just means easing back slightly and continuing"
+        ]
+      },
+      {
+        heading: "Imaging",
+        bullets: [
+          "CRPS is diagnosed clinically, from your symptoms and examination findings, not from a single test or scan",
+          "Imaging or a bone scan is occasionally used to help rule out other causes or support the diagnosis in unclear cases"
+        ]
+      },
+      {
+        heading: "Onward referral",
+        bullets: [
+          "CRPS is usually managed by a team, your GP, therapist, and sometimes a pain specialist working together",
+          "If symptoms are severe, spreading, or not improving with therapy, we'll suggest referral to a pain specialist, this is a normal part of good CRPS care, not a sign things are going wrong"
+        ]
+      },
+      {
+        heading: "When to get in touch",
+        bullets: [
+          "Symptoms are spreading beyond the original injury site",
+          "Pain is significantly affecting your sleep, mood, or daily life",
+          "You're finding it hard to use the hand at all, even for light tasks"
+        ]
+      }
+    ],
+    footerNote: "This handout is general information and doesn't replace individual advice from your therapist or pain specialist.",
+    sources: [
+      {
+        title: "Breaking the Cycle of Pain: The Role of Graded Motor Imagery and Mirror Therapy in Complex Regional Pain Syndrome",
+        authors: "Donati et al.",
+        year: "2024",
+        journal: "Biomedicines",
+        url: "https://pubmed.ncbi.nlm.nih.gov/39335652/"
+      }
+    ]
+  }
+];
+
+// Sidebar grouping. Each handout id should appear in exactly one group;
+// anything not listed here falls back to an "Other Handouts" group.
+const HANDOUT_CATEGORIES = [
+  {
+    name: "Nerve Conditions",
+    ids: ["carpal-tunnel", "cubital-tunnel", "nerve-injury-recovery", "crps"]
+  },
+  {
+    name: "Tendon & Overuse Conditions",
+    ids: ["trigger-finger", "de-quervains", "tennis-elbow", "golfers-elbow"]
+  },
+  {
+    name: "Arthritis",
+    ids: ["thumb-cmc-oa", "hand-oa", "rheumatoid-arthritis", "dupuytrens"]
+  },
+  {
+    name: "Ligament & Joint Injuries",
+    ids: ["wrist-sprain", "thumb-ucl-sprain", "volar-plate-injury", "elbow-ucl-sprain", "pipj-collateral-sprain", "tfcc-injury", "mallet-finger", "boutonniere"]
+  },
+  {
+    name: "Fractures",
+    ids: ["distal-radius-fracture", "scaphoid-fracture", "metacarpal-fracture", "finger-fracture", "radial-head-fracture"]
+  },
+  {
+    name: "Other Conditions",
+    ids: ["ganglion-cyst", "raynauds"]
+  },
+  {
+    name: "Surgery & Wound Care",
+    ids: ["splint-care", "wound-scar-care", "cast-care", "preparing-for-surgery", "post-surgery-recovery", "hand-burns-care"]
+  },
+  {
+    name: "Home Exercise Programmes",
+    ids: ["tendon-glide", "median-nerve-glide", "wrist-rom", "elbow-rom", "thumb-rom", "putty-strengthening"]
+  },
+  {
+    name: "Self-Management",
+    ids: ["oedema-management", "desensitisation", "scar-massage", "cold-heat-therapy", "compression-garment-care"]
+  },
+  {
+    name: "Work, Sport & Lifestyle",
+    ids: ["ergonomic-tips", "return-to-work", "return-to-sport", "managing-persistent-pain"]
   }
 ];
